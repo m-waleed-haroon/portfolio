@@ -20,6 +20,9 @@ Expected URL after publishing: https://m-waleed-haroon.github.io/portfolio/
 
 ## Edit
 
-All layout, styling, and content are in `index.html`. No installation or build step is required. Open the file in a browser for local review.
+The homepage content is in `index.html`, its responsive styles are in `studio.css`, and its scroll reveals are in `studio.js`. No installation or build step is required. Serve the repository with a local static server for review, for example `python -m http.server 8000`.
 
-The first version uses a typographic design and a GitHub contact link. Project screenshots, a downloadable CV, and further contact options can be added later.
+The homepage uses a video-inspired creative studio layout: Electric Lime accents, the existing portrait and holographic W favicon, floating decorative shapes, alternating dark and light sections, and project cards that stack on desktop. Mobile displays project cards in normal document flow. Reduced-motion preferences disable continuous animation, reveals and sticky stacking. Content remains accessible when JavaScript is disabled.
+
+The project panels are typographic artwork, not screenshots of the stores. Existing project and contact detail pages are preserved. No client testimonials or project results have been invented.
+
