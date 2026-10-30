@@ -24,5 +24,7 @@ The homepage content is in `index.html`, its responsive styles are in `studio.cs
 
 The homepage uses a video-inspired creative studio layout: Electric Lime accents, the existing portrait and holographic W favicon, floating decorative shapes, alternating dark and light sections, and project cards that stack on desktop. Mobile displays project cards in normal document flow. Reduced-motion preferences disable continuous animation, reveals and sticky stacking. Content remains accessible when JavaScript is disabled.
 
-The project panels are typographic artwork, not screenshots of the stores. Existing project and contact detail pages are preserved. No client testimonials or project results have been invented.
+All three pages share `studio.css`, `studio.js`, and matching header/footer markup. Projects retains the full project directory and Contact retains the enquiry form and direct contact links; its clipboard and LinkedIn handoff behavior lives in `contact.js`. The form does not automatically send messages. Update the shared header/footer markup in all three HTML files when changing navigation.
+
+The project panels are typographic artwork, not screenshots of the stores. No client testimonials or project results have been invented.
 
